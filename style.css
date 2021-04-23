@@ -1,0 +1,152 @@
+nav h1:hover{
+
+    color:cornflowerblue;
+    font-size: 40px;
+
+}
+
+
+
+body{
+    background-color: #a2c276 ;
+    text-align: center;
+    font-family: cursive;
+}
+
+nav h1{
+    text-align:  center ;
+    font-size: 50px;
+    color: gray ;
+
+    
+}
+nav ul{
+    text-decoration: none ;
+    list-style-type: none ;
+    justify-content :space-around ;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke ;
+    
+}
+
+
+section{ 
+    background-color: #e6decc;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding:30px ;
+}
+
+img{
+    float: left;
+    justify-content: block ;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+  
+}
+
+
+
+#item{
+    list-style-type: none;
+    text-decoration:none ;
+    color:whitesmoke ;
+    margin:0px;
+   
+   
+   
+}
+
+
+#desastresNaturais{
+    padding:40px ;
+}
+
+footer{
+    background-color: gray;
+    padding: 5px;
+}
+
+#item:hover{
+
+    color:green;
+}
+
+#criminalidade{
+
+    padding: 10px;
+}
+
+h1{
+
+ transition-property: color, font-size;
+ transition: 1s ease 0s ;
+
+
+}
+
+#VerMais{
+
+ text-decoration: none;
+     
+}
+
+ nav h1{
+
+    animation-name: rotaçaoDoTitulo;
+    animation-delay: 0.5s;
+    animation-duration: 4s;
+   
+
+}
+
+@keyframes rotaçaoDoTitulo{
+
+    0%{ transform: rotate(0deg);
+     color: blueviolet;
+     animation-delay: 0.5s;
+     
+    }
+
+    70%{
+    color: yellow;
+    font-size: 40px;
+    }
+
+    80%{
+
+    color: hotpink;
+    font-size: 45px;
+    }
+    90%{
+
+        color: hotpink;
+    }
+
+    100%{
+    transform: rotate(360deg);
+    
+        }
+
+}
+
+
+a:link{
+
+    color: goldenrod;
+    text-decoration: none;
+}
+
+
+
+
+
+a:visited{
+
+    color: rgb(7, 218, 218);
+}
